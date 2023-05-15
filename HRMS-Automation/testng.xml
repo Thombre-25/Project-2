@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Login">
+		<classes>
+			<class name="com.kpitech.test.TestConfig" />
+			<!-- <class name="com.kpitech.test.LoginTest" /> -->
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Forgot_Password">
+		<classes>
+			<!-- <class name="com.kpitech.test.ForgotPasswordTest"/> -->
+		</classes>
+	</test>
+
+	<test name="Dashboard">
+		<classes>
+			<class name="com.kpitech.test.DashboardTest"/>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
